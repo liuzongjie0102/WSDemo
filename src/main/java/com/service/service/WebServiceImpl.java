@@ -4,7 +4,8 @@ public class
 WebServiceImpl implements IWebService {
 
     public String sayHello() {
-        String name = "Zongjie";
-        return "hello world";
+        String name = "Zongjied";
+
+        return "hello world" + name;
     }
 }
