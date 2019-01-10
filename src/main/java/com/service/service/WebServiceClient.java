@@ -10,6 +10,6 @@ public class WebServiceClient {
         factory.setServiceClass(IWebService.class);
         IWebService service = (IWebService) factory.create();
         String rsp = service.sayHello();
-        System.out.println(rsp);
+        System.out.println("rsp:" + rsp);
     }
 }
