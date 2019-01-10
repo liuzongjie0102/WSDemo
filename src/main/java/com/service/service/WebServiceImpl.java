@@ -4,6 +4,6 @@ public class
 WebServiceImpl implements IWebService {
 
     public String sayHello() {
-        return "hello";
+        return "hello world";
     }
 }
