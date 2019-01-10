@@ -9,7 +9,7 @@ public class WebServiceClient {
         factory.setAddress("http://127.0.0.1:8989/service");
         factory.setServiceClass(IWebService.class);
         IWebService service = (IWebService) factory.create();
-        String rspon = service.sayHello();
-        System.out.println("rsp:" + rsp);
+        String rsp1 = service.sayHello();
+        System.out.println("rs12p:" + rsp1);
     }
 }
