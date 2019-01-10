@@ -8,4 +8,7 @@ import javax.jws.WebService;
 public interface IWebService {
     @WebMethod
     String sayHello();
+    
+    @WebMethod
+    String testSay();
 }
